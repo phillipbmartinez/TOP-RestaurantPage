@@ -3,4 +3,49 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar {
+    text-align: center;
+    background-color: hsl(0, 0%, 100%, 25%);
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.navbarButtons {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: hsl(60, 56%, 91%);
+    margin: 20px 10px;
+}
+
+.navbarButtons:hover {
+    background-color: hsl(60, 56%, 81%);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    background-color: hsl(0, 0%, 100%, 25%);
+    margin-top: 30px;
+    width: 75%;
+    height: 75%;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#aboutText {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
